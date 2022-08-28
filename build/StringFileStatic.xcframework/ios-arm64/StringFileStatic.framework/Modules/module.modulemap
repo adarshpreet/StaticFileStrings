@@ -1,0 +1,11 @@
+framework module StringFileStatic {
+  umbrella header "StringFileStatic.h"
+
+  export *
+  module * { export * }
+}
+
+module StringFileStatic.Swift {
+    header "StringFileStatic-Swift.h"
+    requires objc
+}
